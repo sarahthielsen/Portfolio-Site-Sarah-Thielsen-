@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="413px" height="109px" viewBox="0 0 413 109" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Portfolio logo</title>
+    <g id="Portfolio-logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="DevanagariSangamMN, Devanagari Sangam MN" font-weight="normal">
+        <text id="SARAH-THIELSEN" fill-rule="nonzero" font-size="36" fill="#000000">
+            <tspan x="54" y="63">SARAH THIELSEN</tspan>
+        </text>
+        <text id="UX-DESIGNER" font-size="16" fill="#000000">
+            <tspan x="154" y="93">UX DESIGNER</tspan>
+        </text>
+    </g>
+</svg>
