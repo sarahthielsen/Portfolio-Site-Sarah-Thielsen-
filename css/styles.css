@@ -1,0 +1,98 @@
+/*
+colours used:
+primary colour (green):  #A8C69F
+secondary colour (pink): #f287b6
+tertiary colour (orange): #f9a51b
+*/
+
+/*typography and colour*/
+body{
+    background-color: #a8c96f;
+    font-family: 'montserrat', sans-serif;
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: normal;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:visited {
+    color: blueviolet;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+a:focus {
+    color: blue;
+    text-decoration: underline;
+}
+a:active {
+    color: red;
+    text-decoration: underline;
+}
+
+.button{
+    display:inline-block;
+    background-color: #f9a51b;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 35px;
+    border-bottom: 2px solid #f287b6;
+    transition: 0.2s opacity;
+}
+.button:visited{
+    opacity: 0.8;
+    text-decoration: none;
+}
+.button:hover{
+    opacity: 0.8;
+    color: #ffffff;
+    text-decoration:none;
+}
+.button:active{
+    opacity: 0.8;
+    color: #ffffff;
+    text-decoration:underline;
+}
+.button:focus{
+    opacity: 0.8;
+    color: #ffffff;
+    text-decoration:underline;
+    border:2px solid #f287b6;
+}
+
+.button.contact{
+    background-color:transparent;
+    color:#ffffff;
+    text-transform: uppercase;
+    border:2px solid #f9a51b;
+}
+.button.contact:hover{
+    background-color:#f9a51b;
+    color:#ffffff;
+    text-transform: uppercase;
+    border:2px solid #f9a51b;
+}
