@@ -1,11 +1,15 @@
 /*
 colours used:
-primary colour (green):  #A8C69F
+primary colour (green):  #e9faca
+primary colour (green2): #A8C96F
 secondary colour (pink): #f287b6
 tertiary colour (orange): #f9a51b
 */
 
-/*typography and colour*/
+/*typography and colour (1.6)*/
+*{
+    box-sizing:border-box;
+}
 body{
     background-color: #e9faca;
     font-family: 'montserrat', sans-serif;
@@ -97,36 +101,90 @@ a:active {
     border:2px solid #f9a51b;
 }
 
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:#a8c96f;
-  }
-  
-  li a{
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    color:#ffffff;
-    background-color: #f9a51b;
-  }
-  ul.a{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:#e9faca;
-  }
+/*Layout styling (1.7)*/
+.container{
+    padding: 0 15%;
+}
 
+.row{
+    margin: 25px 0;
+}
+
+#work .row{
+    padding-bottom: 25px;
+    border-bottom: 1px solid #A8C96F;
+}
+
+#hero h1{
+    text-align: center;
+}
+
+.logo{
+    max-width: 250px;
+}
+
+header{
+    background-color: #A8C96F;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+main{
+    padding-top: 133px;
+}
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav > ul > li {
+    display:inline-block;
+}
+
+nav > ul > li > a{
+    display:inline-block;
+    padding: 0px 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+nav > ul > li > a:visited {
+    color: #ffffff;
+}
+
+nav > ul > li > a:hover {
+    color: #ffffff;
+    background-color: #f9a51b;
+    border-radius: 35px;
+}
+
+nav > ul > li > a:active {
+    color: #f287b6;
+    background-color: #f9a51b;
+}
+
+nav > ul > li > a:focus {
+    color: #f287b6;
+}
+
+#hero{
+    background-color: #A8C96F;
+    padding: 20px o;
+    display: inline-block;
+    width: 100%;
+}
+
+.css-box-shadow{
+	/*start ------------*/
+	width: [object Object]px; 
+	height: [object Object]px; 
+	background: #A8C96F; 
+	border: solid #2E4A1E 0; 
+	box-shadow: 0 5px 14px rgba(21, 54, 9, 0.4)  ; 
+	-webkit-box-shadow: 0 5px 14px rgba(21, 54, 9, 0.4)  ; 
+	-moz-box-shadow: 0 5px 14px rgba(21, 54, 9, 0.4);
+}

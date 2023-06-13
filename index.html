@@ -14,24 +14,24 @@
 </head>
 <body>
     <!---page header-->
-    <header>
-    <div>
-        
+    <header class="css-box-shadow">
+    <div class="container">
+       <img src="/img/branding/sarahthielsen_logo.svg" class="logo">      
         <nav>
-            <ul class="a">
-                <li class="a"><a href="index.html" target="_self">Work</a></li>
+            <ul>
+                <li ><a href="index.html" target="_self">Work</a></li>
                 <li><a href="about.html" target="_self">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
     </nav>
-    <img src="/img/branding/sarahthielsen_logo.svg"> 
+
     </div>
     </header>
 
     <!---hero section-->
     <main>
-    <div>
-        <div>
+    <div id="hero">
+        <div class="container">
             <h1>Hi, my name is Sarah Thielsen,
             <span>I am a UX/UI designer :)</span></h1>
             <p>
@@ -42,15 +42,14 @@
 
     <!--Projects section-->
 
-    <div><!--whole section-->
-        <div><!--container/wraper-->
-            <h2>Project 1</h2>
-            <div><!--row for columns-->
+    <div id="work"><!--whole section-->
+        <div class="container"><!--container/wraper-->
+            <h2>My Work</h2>
+            <div class="row"><!--row for columns-->
                 <div><!--column1-->
                     <picture>
                         <source srcset="img/mockup.svg" media="(max-width:767px)">
-                        <img src="img/mockup.svg" alt="Spektra Mockup">
-                    </picture>
+                        <img src="img/mockup.svg" alt="Spektra Mockup">                  </picture>
                     </div>
                     <div><!--column2-->
                         <h3>Spektra Financial</h3>
@@ -63,12 +62,9 @@
                 </div>
             </div>
         </div>
-    </div>
     
-    <div><!--whole section-->
-        <div><!--container/wraper-->
-            <h2>Project 2</h2>
-            <div><!--row for columns-->
+        <div class="container"><!--container/wraper-->
+            <div class="row"><!--row for columns-->
                 <div><!--column1-->
                     <picture>
                         <source srcset="http://via.placeholder.com/350x150" media="(max-width:767px)">
@@ -82,13 +78,13 @@
                         </p>
                             <a href="spektra" class="button">View Project 2 </a>
                 </div>
-                </div>
             </div>
         </div>
+    </div>
 </main>
     <!--footer-->
     <footer id="contact">
-        <div>
+        <div class="container">
             <h3>Lets Talk!</h3>
             <p>
                 I would love to work with you! Feel free to reach out to me for blah blah blah
