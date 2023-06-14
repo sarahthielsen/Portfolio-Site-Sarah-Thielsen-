@@ -14,76 +14,80 @@
 </head>
 <body>
     <!---page header-->
-    <header>
-        <div>
-        <img src="/img/branding/sarahthielsen_logo.svg" class="logo">             
-            <nav>
-                <ul>
-                    <li><a href="index.html" target="_self">Work</a></li>
-                    <li><a href="about.html" target="_self">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-        </nav>
+    <header class="css-box-shadow">
+    <div class="container">
+       <img src="/img/branding/sarahthielsen_logo.svg" alt="logo" class="logo">      
+        <nav>
+            <ul>
+                <li ><a href="index.html" target="_self">Work</a></li>
+                <li><a href="about.html" target="_self">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </nav>
 
-        </div>
-        </header>
+    </div>
+    </header>
 
     <!---hero section-->
-    <main>
-        <div> <!--orange -->
-            <div><!--yellow-->
-                <h1>About Me</h1>
-            </div>
-        </div>
-        <div><!--orange-->
-            <div><!--yellow-->
-                <picture> 
-                    <source srcset="img/profilepic@1.png" media="(max-width: 767px)" />
-                    <img src="img/profilepic@1.png" alt="Profile picture" />
-                </picture>
-                <div><!--dg row for column 1-->
-                    <div> <!--column1-->
-                        <h2> My Story </h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                        </p>
-                        <a href="files/resume.pdf" target="blank" class="button">Download My Resume</a>
-                    </div>
-                </div>
-                <div><!--row4column2-->
-                    <div>
-                        <h2>Skills & Tools</h2>
-                        <div>
-                            <div>
-                                <h3>Relevant Skills</h3>
-                                <ul class="a">
-                                    <li>Resourceful Problem Solver</li>
-                                    <li>Strong Communication & Interpersonal Skills</li>
-                                    <li>Curious & Empathetic</li>
-                                    <li>Self Motivated</li>
-                                    <li>Detail Oriented & Organized</li>
-                                </ul>
+<main>
+    <div id="hero">
+        <div>
+            <div id="work"><!--whole section-->
+                <div class="container"><!--container/wraper-->
+                    <h2>About me</h2>
+                    <div class="row"><!--row for columns-->
+                            <div><!--column1-->
+                            <picture> 
+                                <source srcset="img/profilepic@1.png" media="(max-width: 767px)" >
+                                <img src="img/profilepic@1.png" alt="Profile picture" >
+                            </picture>
                             </div>
-                            <div>
-                                <h3>Tools I Use</h3>
-                                <ul class="a">
-                                    <li>Adobe Suite</li>
-                                    <li>Figma</li>
-                                    <li>Sketch</li>
-                                    <li>Basalmiq</li>
-                                    <li>VS Code</li>
-                                </ul>
+                            <div><!--column2-->
+                                <h2> My Story </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                </p>
+                                <a href="files/resume.pdf" target="blank" class="button">Download My Resume</a>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-    </main>
+
+        <div class="container"><!--container/wraper-->
+            <div class="row"><!--row for columns-->
+                <div><!--column1-->
+                    <h2>Skills & Tools</h2>
+                    <div>
+                        <div>
+                            <h3>Relevant Skills</h3>
+                            <ul>
+                                <li>Resourceful Problem Solver</li>
+                                <li>Strong Communication & Interpersonal Skills</li>
+                                <li>Curious & Empathetic</li>
+                                <li>Self Motivated</li>
+                                <li>Detail Oriented & Organized</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>Tools I Use</h3>
+                            <ul>
+                                <li>Adobe Suite</li>
+                                <li>Figma</li>
+                                <li>Sketch</li>
+                                <li>Basalmiq</li>
+                                <li>VS Code</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ </main>
     <!--footer-->
     <footer>
         <div>
@@ -92,7 +96,7 @@
                 I would love to work with you! Feel free to reach out to me for blah blah blah
             </p>
             <div>
-                <a href="sthielsen@outlook.com" class="button contact">Send an Email</a> 
+                <a href="mailto:sthielsen@outlook.com" class="button contact">Send an Email</a> 
             </div>
             <div>
                 <h4>My Socials</h4>

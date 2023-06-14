@@ -25,6 +25,12 @@ h1{
     font-weight: 400;
 }
 
+h2{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration:w
+}
+
 p{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -123,6 +129,12 @@ a:active {
     max-width: 250px;
 }
 
+svg{
+    max-width: 32px;
+    height: auto;
+}
+
+
 header{
     background-color: #A8C96F;
     text-align: center;
@@ -133,6 +145,13 @@ header{
 
 main{
     padding-top: 133px;
+}
+
+footer{
+    padding:10% 15%;
+    text-align: center;
+    margin-top: 133px;
+    background-color: hsla(82, 45%, 61%, 0.234);
 }
 
 nav > ul {
@@ -188,3 +207,4 @@ nav > ul > li > a:focus {
 	-webkit-box-shadow: 0 5px 14px rgba(21, 54, 9, 0.4)  ; 
 	-moz-box-shadow: 0 5px 14px rgba(21, 54, 9, 0.4);
 }
+

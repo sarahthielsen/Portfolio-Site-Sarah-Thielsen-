@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="/img/branding/favicon.ico" sizes="64x64">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sarah Thielsen - About Me</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" type="text/css"  href="css/styles.css">
+        <link rel="icon" type="image/png" href="/img/branding/favicon.ico" sizes="32x32">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sarah Thielsen - Spektra</title>
+    </head>
 <body>
     <!---page header-->
-    <header>
-        <div>
-            <img src="/img/branding/sarahthielsen_logo.svg"> 
+    <header class="css-box-shadow">
+        <div class="container">
+           <img src="/img/branding/sarahthielsen_logo.svg" alt="logo" class="logo">      
             <nav>
                 <ul>
-                    <li><a href="index.html" target="_self">Work</a></li>
+                    <li ><a href="index.html" target="_self">Work</a></li>
                     <li><a href="about.html" target="_self">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
         </nav>
         </div>
-        </header>
+    </header>
 
     <!---hero section-->
     <main>
-        <div> <!--orange -->
-            <div><!--yellow-->
+        <div id="work"> <!--orange -->
+            <div class="container"><!--yellow-->
                 <h1>Spektra Financial</h1>
                 <picture> 
-                    <source srcset="img/mockup.svg" media="(max-width: 767px)" />
-                    <img src="img/mockup.svg" alt="spektra mockup" />
+                    <source srcset="img/mockup.svg" media="(max-width: 767px)" >
+                    <img src="img/mockup.svg" alt="spektra mockup" >
                 </picture>
                 <p>
                     I began working on Spektra as a student with CareerFoundry. The project brief was for an app called Pluto Pay - a web app that allows anyone to shop, transfer money, 
@@ -43,26 +48,24 @@
             </div>
         </div>
         <div><!--orange-->
-            <div><!--yellow-->
+            <div class="container"><!--yellow-->
                 <h1>My Process</h1>
                 <picture> 
-                    <source srcset="http://via.placeholder.com/600x400" media="(max-width: 767px)" />
-                    <img src="http://via.placeholder.com/600x400" alt="spektra mockup" />
+                    <source srcset="http://via.placeholder.com/600x400" media="(max-width: 767px)" >
+                    <img src="http://via.placeholder.com/600x400" alt="spektra mockup" >
                 </picture>
                 <h3>Research</h3>
-                <p>
                     Research goals
                     <ol>
                         <li>What are users’ pain points when it comes to managing their personal finances?</li>
                         <li>How confident do users feel about their money management?</li>
                         <li>What do users want from their ideal financial app?</li>
                     </ol>
-                </p>
             </div>
-            <div><!--yellow-->
+            <div class="container"><!--yellow-->
                 <picture> 
-                    <source srcset="http://via.placeholder.com/600x400" media="(max-width: 767px)" />
-                    <img src="http://via.placeholder.com/600x400" alt="spektra mockup" />
+                    <source srcset="http://via.placeholder.com/600x400" media="(max-width: 767px)" >
+                    <img src="http://via.placeholder.com/600x400" alt="spektra mockup" >
                 </picture>
                 <h3>Ideation</h3>
                 <p>
@@ -71,28 +74,30 @@
                     With careful consideration of the user experience, the interface should be intuitive, visually appealing, and efficient.
                 </p>
             </div>
-            <div><!--yellow-->
+            <div class="container"><!--yellow-->
                 <picture> 
-                    <source srcset="http://via.placeholder.com/600x400" media="(max-width: 767px)" />
-                    <img src="http://via.placeholder.com/600x400" alt="spektra mockup" />
+                    <source srcset="http://via.placeholder.com/600x400" media="(max-width: 767px)" >
+                    <img src="http://via.placeholder.com/600x400" alt="spektra mockup" >
                 </picture>
                 <h3>Wireframe</h3>
                 <p>
                     I began by sketching out about 50 super ugly wireframes, playing with the layout and the hierarchy of information. 
                     I wanted to focus these rapid prototyping sessions on three main features that I believe will be the most beneficial for our users;
+                </p>
                     <ul>
                         <li>Buckets (Now ‘Wallets’)</li>
                         <li>Round-ups</li>
                         <li>Budget Tracker (Now ‘Insights’)</li>
                     </ul>
+                <p>
                     These example prototypes are the first flows for setting up the round-ups feature. This user flow has probably changed the least throughout all of the iterations. 
                     I loved building this feature however because it helped me remember that not every flow needs to be a whole process, round-ups set up is short and sweet :)
                 </p>
             </div>
-            <div><!--yellow-->
+            <div class="container"><!--yellow-->
                 <picture> 
-                    <source srcset="http://via.placeholder.com/600x400" media="(max-width: 767px)" />
-                    <img src="http://via.placeholder.com/600x400" alt="spektra mockup" />
+                    <source srcset="http://via.placeholder.com/600x400" media="(max-width: 767px)" >
+                    <img src="http://via.placeholder.com/600x400" alt="spektra mockup" >
                 </picture>
                 <h3>Design</h3>
                 <p>
@@ -100,10 +105,10 @@
                     This casual approach also allows Spektra to break down complex or daunting financial language into more digestible terms for users new to the game!
                 </p>
             </div>
-            <div><!--yellow-->
+            <div class="container"><!--yellow-->
                 <picture> 
-                    <source srcset="http://via.placeholder.com/600x400" media="(max-width: 767px)" />
-                    <img src="http://via.placeholder.com/600x400" alt="spektra mockup" />
+                    <source srcset="http://via.placeholder.com/600x400" media="(max-width: 767px)" >
+                    <img src="http://via.placeholder.com/600x400" alt="spektra mockup" >
                 </picture>
                 <h3>Prototype</h3>
                 <p>     
@@ -112,14 +117,13 @@
                     Notable examples include a complete layout overhaul from mid-fidelity to hi-fi #1, and the modification of the CTA card color and hierarchy from hi-fi #2 to our current iteration.
                 </p>
             </div>
-            <div><!--yellow-->
+            <div class="container"><!--yellow-->
                 <h2>Conclusion</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                 </p>
             </div>
-        </div>
         </div>
     </main>
     <!--footer-->
