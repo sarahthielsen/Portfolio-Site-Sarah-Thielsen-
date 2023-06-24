@@ -11,11 +11,12 @@ tertiary colour (orange): #f9a51b
     box-sizing:border-box;
 }
 body{
-    background-color: #fafafa;
+    background-color: #2b2a2f;
     font-family: 'montserrat', sans-serif;
     font-family:'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 300;
+    color: #ffffff 
 }
 
 h1{
@@ -130,6 +131,8 @@ a:active {
 
 #hero h1{
     text-align: center;
+    font-weight: 700;
+    
 }
 
 .logo{
@@ -149,7 +152,7 @@ svg{
 
 
 header{
-    background-color: #A8C96F;
+    background-color: #f287b6;
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -165,11 +168,14 @@ footer{
     padding:10% 15%;
     text-align: center;
     margin-top: 133px;
-    background-color: hsla(82, 45%, 61%, 0.234);
+    background-color: #7b6d7d57;
 }
+
 ul {
-    text-align: left;
+    text-align: center;
 }
+
+/*nav styling*/
 nav > ul {
     list-style-type: none;
     padding: 0;
@@ -207,7 +213,7 @@ nav > ul > li > a:focus {
 }
 
 #hero{
-    background-color: #A8C96F;
+    background-color: #7b6d7d57;
     padding: 20px o;
     display: inline-block;
     width: 100%;
@@ -217,11 +223,12 @@ nav > ul > li > a:focus {
 	/*start ------------*/
 	width: [object Object]px; 
 	height: [object Object]px; 
-	background: #A8C96F; 
-	border: solid #2E4A1E 0; 
-	box-shadow: 0 5px 14px rgba(21, 54, 9, 0.4)  ; 
-	-webkit-box-shadow: 0 5px 14px rgba(21, 54, 9, 0.4)  ; 
-	-moz-box-shadow: 0 5px 14px rgba(21, 54, 9, 0.4);
+	background: rgb(249,165,27);
+    background: radial-gradient(circle, rgba(249,165,27,1) 0%, rgba(242,135,182,1) 100%); 
+	border: solid #ffffff 0; 
+	box-shadow: 0 5px 14px rgba(179, 132, 30, 0.4)  ; 
+	-webkit-box-shadow: 0 5px 14px rgba(54, 36, 9, 0.4)  ; 
+	-moz-box-shadow: 0 5px 14px rgba(54, 9, 9, 0.4);
 }
 
 /*
@@ -311,3 +318,41 @@ X-large devices (1440px or larger)
   .cloud-back {
     animation: 34s cloud-move-reverse infinite alternate linear;
   }
+
+  /*nav animation*/
+  /* Top and Bottom borders come in */
+div.topBotomBordersIn a:before, div.topBotomBordersIn a:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+div.topBotomBordersIn a:before
+{
+    top: 0px;
+    transform: translateY(-10px);
+}
+
+div.topBotomBordersIn a:after
+{
+    bottom: 0px;
+    transform: translateY(10px);
+}
+
+div.topBotomBordersIn a:hover:before, div.topBotomBordersIn a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.under-construction{
+    pointer-events: none;
+    color: white;
+    background-color: gray;
+}
