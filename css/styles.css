@@ -136,7 +136,7 @@ a:active {
 }
 
 .logo{
-    max-width: 250px;
+    max-width: 150px;
 }
 
 svg{
@@ -153,15 +153,13 @@ svg{
 
 header{
     background-color: #f287b6;
-    text-align: center;
-    padding: 10px;
+    padding: 10px 0 4px;
     position: fixed;
     width: 100%;
 }
 
 main{
-    padding-top: 133px;
-    text-align:center;
+    padding-top: 56px;
 }
 
 footer{
@@ -171,19 +169,16 @@ footer{
     background-color: #7b6d7d57;
 }
 
-ul {
-    text-align: center;
-}
 
-/*nav styling*/
+/*====================
+     NAV STYLING
+====================*/
 nav > ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
-nav > ul > li {
-    display:inline-block;
-}
 
 nav > ul > li > a{
     display:inline-block;
@@ -212,6 +207,40 @@ nav > ul > li > a:focus {
     color: #f287b6;
 }
 
+/* NAV TOGGLE */
+.navtoggle li:not(:last-child) {
+    display: none;
+  }
+
+.navtoggle li .icon {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 20px;
+    padding-right: 0;
+  }
+
+.navtoggle, .navtoggle.responsive {
+    position:relative;
+}
+
+.navtoggle.responsive li {
+    display: block;
+}
+
+.navtoggle.responsive nav {
+    padding: 24px 0 0;
+  }
+  .navtoggle.responsive li  {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255,127,80,0.5);
+  }
+  
+  .navtoggle.responsive li:last-child  {
+    padding: 0 0 10px;
+  }
+  
 #hero{
     background-color: #7b6d7d57;
     padding: 20px o;
@@ -260,6 +289,29 @@ Medium devices (640px and larger)
     .col-md-6{
         width: 50%;
     }
+    .col-md-4{
+        width: 33.33%;
+    }
+
+    .logo{
+        min-width: 250px;
+    }
+
+    nav > ul > li {
+        display:inline-block;
+    }
+
+    .navtoggle li:not(:last-child) {
+        display: inline-block;
+      }
+    
+    .navtoggle li:last-child {
+        display: none;
+      }
+    
+    nav > ul {
+        margin: 1em 0;
+    }
 }
 /* ==============================
 Large devices (1024px or larger)
@@ -268,8 +320,8 @@ Large devices (1024px or larger)
     .col-md-5{
         width:41.66%;
     }
-    .col-md-7{
-        width: 58.33%;
+    .col-md-8{
+        width: 66.66%;
     }
     .container{
         max-width: 1200px;
