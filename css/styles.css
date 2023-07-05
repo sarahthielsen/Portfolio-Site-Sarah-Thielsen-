@@ -135,6 +135,15 @@ a:active {
     
 }
 
+#hero h2{
+    text-align: center;
+}
+
+#skills h2{
+    text-align: center;
+}
+
+
 .logo{
     max-width: 150px;
 }
@@ -316,7 +325,7 @@ Medium devices (640px and larger)
         margin: 1em 0;
     }
 
-    
+
 }
 /* ==============================
 Large devices (1024px or larger)
