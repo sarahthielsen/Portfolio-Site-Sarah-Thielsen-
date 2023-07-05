@@ -18,16 +18,24 @@
     <body>
         <!---page header-->
         <header class="css-box-shadow">
-            <div class="navtoggle" id="myNavtoggle">
-                <img src="img/branding/sarahthielsen_logo.svg" alt="logo" class="logo"/>
-                <nav>
-                    <ul>
-                        <li><a href="index.html" target="_self">Work</a></li>
-                        <li><a href="about.html" target="_self">About</a></li>
-                        <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
-                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-                    </ul>
-                </nav>
+            <div class="container"> 
+                <div class="navtoggle" id="myNavtoggle">
+                    <img src="img/branding/sarahthielsen_logo.svg" alt="logo" class="logo"/>
+                        <nav>
+                            <ul>
+                             <li><a href="index.html" target="_self">Work</a></li>
+                             <li><a href="about.html" target="_self">About</a></li>
+                             <li>
+                                <a href="#contact" onclick="menuToggle()">Contact</a>
+                             </li>
+                            <li>
+                            <a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+                              <i class="fas fa-bars"></i>
+                            </a>
+                             </li>
+                            </ul>
+                        </nav>
+                 </div>
             </div>
         </header>
 
@@ -788,7 +796,8 @@
                 </div>
             </div>
         </footer>
-        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>

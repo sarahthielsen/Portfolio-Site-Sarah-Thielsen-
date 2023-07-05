@@ -45,11 +45,11 @@ img {
 }
 
 a {
-    color: blue;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 a:visited {
-    color: blueviolet;
+    color: rgb(91, 91, 91);
     text-decoration: none;
 }
 a:hover {
@@ -111,7 +111,7 @@ a:active {
 
 /*Layout styling (1.7)*/
 .container{
-    padding: 0 15%;
+    padding: 0 5%;
 }
 
 .row{
@@ -211,36 +211,33 @@ nav > ul > li > a:focus {
 .navtoggle li:not(:last-child) {
     display: none;
   }
-
+/*hambuger menu*/
 .navtoggle li .icon {
     position: absolute;
-    right: 10px;
-    top: 5px;
+    right: 0px;
+    top: 2px;
     font-size: 20px;
-    padding-right: 0;
   }
 
 .navtoggle, .navtoggle.responsive {
     position:relative;
 }
 
-.navtoggle.responsive li {
-    display: block;
-}
-
 .navtoggle.responsive nav {
     padding: 24px 0 0;
   }
+
   .navtoggle.responsive li  {
     display: block;
     padding: 10px 0;
-    border-top: 1px solid rgba(255,127,80,0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: center;
   }
   
   .navtoggle.responsive li:last-child  {
     padding: 0 0 10px;
   }
-  
+
 #hero{
     background-color: #7b6d7d57;
     padding: 20px o;
@@ -295,6 +292,12 @@ Medium devices (640px and larger)
 
     .logo{
         min-width: 250px;
+    }
+
+    nav {
+        width: auto;
+        float: right;
+        margin-top: 4px;
     }
 
     nav > ul > li {
