@@ -67,22 +67,23 @@ a:active {
 
 .button{
     display:inline-block;
-    background-color: #f9a51b;
     color: #ffffff;
     font-weight: 400;
     padding: 10px;
     border-radius: 35px;
-    border-bottom: 2px solid #f287b6;
+    border: 2px solid #f287b6;
     transition: 0.2s opacity;
 }
+
 .button:visited{
     opacity: 0.8;
     text-decoration: none;
 }
 .button:hover{
+    background-color: #f9a51b;
     opacity: 0.8;
     color: #ffffff;
-    text-decoration:none;
+    text-decoration: none;
 }
 .button:active{
     opacity: 0.8;
