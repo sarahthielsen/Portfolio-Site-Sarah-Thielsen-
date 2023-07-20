@@ -11,12 +11,12 @@ tertiary colour (orange): #f9a51b
     box-sizing:border-box;
 }
 body{
-    background-color: #2b2a2f;
+    background-color: #f7f6f3;
     font-family: 'montserrat', sans-serif;
     font-family:'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 300;
-    color: #ffffff 
+    color: #2b2a2f;
 }
 
 h1{
@@ -29,7 +29,6 @@ h1{
 h2{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    text-decoration:w
 }
 
 p{
@@ -183,39 +182,44 @@ footer{
 /*====================
      NAV STYLING
 ====================*/
+
 nav > ul {
+
     list-style-type: none;
+    
     padding: 0;
+    
     margin: 0;
-}
-
-
-nav > ul > li > a{
+    
+    }
+       
+    nav > ul > li > a{
+    
     display:inline-block;
+    
     padding: 0px 15px;
+    
     text-transform: uppercase;
+    
     font-weight: 700;
+    
     color: #ffffff;
-}
-
-nav > ul > li > a:visited {
+    
+    }
+     
+    
+    nav > ul > li > a:visited {
+    
     color: #ffffff;
-}
-
-nav > ul > li > a:hover {
-    color: #ffffff;
-    background-color: #f9a51b;
-    border-radius: 35px;
-}
-
-nav > ul > li > a:active {
-    color: #f287b6;
-    background-color: #f9a51b;
-}
-
-nav > ul > li > a:focus {
-    color: #f287b6;
-}
+    
+    }
+    
+      
+    
+    nav > ul > li > a:hover {
+    
+    color: #ffffff; 
+    }
 
 /* NAV TOGGLE */
 .navtoggle li:not(:last-child) {
@@ -267,7 +271,10 @@ nav > ul > li > a:focus {
 	-moz-box-shadow: 0 5px 14px rgba(54, 9, 9, 0.4);
 }
 
-/*
+/*====================
+     CASE STUDY 
+====================*/
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -325,8 +332,24 @@ Medium devices (640px and larger)
     nav > ul {
         margin: 1em 0;
     }
-
-
+    .parent {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 0.5fr 1fr 0.5fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 4px;
+        }
+        
+        .div1 { grid-area: 1 / 2 / 2 / 3; 
+            background-color: #f9a41bc9;
+            border-radius: 5%;}
+        .div2 { grid-area: 1 / 4 / 2 / 5; 
+            background-color: #f287b5e5;
+            border-radius: 5%;}
+    
+    #skills h3{
+        text-align: center;
+    }
 }
 /* ==============================
 Large devices (1024px or larger)
