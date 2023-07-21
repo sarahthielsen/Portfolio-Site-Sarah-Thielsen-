@@ -9,6 +9,12 @@ Background colour: #1c1b1f
   padding: 5%;
 }
 
+#a{
+  background-color: #2b2a2f;
+  color: white;
+  border-radius: 50px;
+}
+
 .containercase{
   padding-top: 10px;
   padding: 5%;
@@ -53,12 +59,12 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-  .col-md-5{
-      width:41.66%;
-  }
-  .col-md-8{
-      width: 66.66%;
-  }
+ .col-md-9{
+  width: 75%
+ }
+ .col-md-3{
+  width: 25%;
+ }
  .container, .section, .containercase{
       max-width: 1200px;
       margin-left: auto;
@@ -78,6 +84,7 @@ Large devices (1024px or larger)
   .hypothesis { grid-area: hypothesis; }
   .goals { grid-area: goals; }
 }
+
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
