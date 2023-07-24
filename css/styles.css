@@ -165,6 +165,7 @@ header{
     padding: 10px 0 4px;
     position: fixed;
     width: 100%;
+    z-index: 3;
 }
 
 main{
@@ -355,9 +356,6 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-    .col-md-4{
-        width:33.3%;
-    }
     .col-md-5{
         width:41.66%;
     }

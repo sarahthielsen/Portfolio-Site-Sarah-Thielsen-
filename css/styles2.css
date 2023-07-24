@@ -3,16 +3,34 @@ colours used:
 Background colour: #1c1b1f
 
 */
-
+h1{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline solid #A8C96F;
+}
+h4{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
 .section{
   padding-top: 20px;
   padding: 5%;
 }
 
-#a{
+.a{
   background-color: #2b2a2f;
   color: white;
-  border-radius: 50px;
+  border-radius: 50px 50px 0 0;
+}
+.divider{
+  background-color: #f7f6f3;
+  border-radius: 50px 50px 0 0;
+  height: 50px;
 }
 
 .containercase{
@@ -20,14 +38,98 @@ Background colour: #1c1b1f
   padding: 5%;
 }
 
-h2{
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  text-decoration: underline solid #A8C96F;
-}
+
 .highlightme { 
 background-color: rgb(237, 174, 0); 
 }
+
+.button3{
+  display:inline-block;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 20px;
+  border-radius: 35px;
+  border: 2px solid #2b2a2f;
+  background-color: #000;
+  transition: 0.2s opacity;
+}
+
+.button3:visited{
+  opacity: 0.8;
+  text-decoration: none;
+  color:#ffffff
+}
+.button3:hover{
+  background-color: #2b2a2f;
+  opacity: 0.8;
+  color: #ffffff;
+  text-decoration: none;
+}
+.button3:active{
+  opacity: 0.8;
+  color: #ffffff;
+  text-decoration:underline;
+}
+/*slideshow container*/
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f7f6f3;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+  font-size:xx-large;
+  color:#2b2a2f;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+
+/* Add a blue color to the author */
+.author {color: #2b2a2f;}
+
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+[class*="col-"] {
+  float:left;
+  padding:10px;
+}
+@media only screen and (min-width: 640px) {
+
 .grid3 {  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -42,18 +144,13 @@ background-color: rgb(237, 174, 0);
 
 .take2 { grid-area: take2; }
 
-.take3 { grid-area: take3; }
+.take3 { grid-area: take3; }  
 
-
-/* ==============================
-Medium devices (640px and larger)
-================================= */
-[class*="col-"] {
-  float:left;
-  padding:10px;
+.col-md-4{
+  width: 33.33%;
+  display:flex;
+  justify-content: center;
 }
-@media only screen and (min-width: 640px) {
-
 }
 /* ==============================
 Large devices (1024px or larger)
