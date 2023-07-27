@@ -304,9 +304,6 @@ Medium devices (640px and larger)
     .col-md-6{
         width: 50%;
     }
-    .col-md-4{
-        width: 33.33%;
-    }
 
     .logo{
         min-width: 250px;
