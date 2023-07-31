@@ -1,17 +1,19 @@
 /*
 colours used:
-primary colour (green):  #e9faca
-primary colour (green2): #A8C96F
-secondary colour (pink): #f287b6
-tertiary colour (orange): #f9a51b
+background colour (white): #F6F1EE
+primary colour (green):  #4c5a0d
+light primary (green): #87a117
+secondary colour (pink): #f28093
+tertiary colour (orange): #F49445
+light tertiary (sand): :F49445
 */
 
-/*typography and colour (1.6)*/
+/*TYPOGRAPHY AND COLOUR*/
 *{
     box-sizing:border-box;
 }
 body{
-    background-color: #f7f6f3;
+    background-color: #F6F1EE;
     font-family: 'montserrat', sans-serif;
     font-family:'Open Sans', sans-serif;
     font-size: 16px;
@@ -38,11 +40,34 @@ p{
     font-style: normal;
 }
 
+
+
+/* HERO */
+#index-hero h1{
+    color: #4c5a0da4;
+    text-align: left;
+    font-weight: 700;
+    font-size: 50px;
+}
+.bold{
+    color: #4c5a0d;
+}
+
+#index-hero p{
+    font-size: 20px;
+}
+
 img {
     width: 100%;
     height:100%;
 }
+#index-hero{
+    padding: 20px 0 100px;
+    display: inline-block;
+    width: 100%;
+}
 
+/*LINKS AND BUTTONS*/
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -65,18 +90,20 @@ a:active {
 }
 
 .button{
+    color:#87a117;
+    background-color: #4c5a0d24;
     display:inline-block;
-    color: #ffffff;
     font-weight: 400;
     padding: 10px;
-    border-radius: 35px;
-    border: 2px solid #f287b6;
+    border-radius: 20px 20px 0 ;
+    border: 2px solid #87a117;
     transition: 0.2s opacity;
 }
 
 .button:visited{
     opacity: 0.8;
     text-decoration: none;
+    color: #87a117;
 }
 .button:hover{
     background-color: #f9a51b;
@@ -129,15 +156,7 @@ a:active {
     text-align: left;
 }
 
-#index-hero h1{
-    text-align: center;
-    font-weight: 700;
-    
-}
 
-#index-hero p{
-    font-size: 20px;
-}
 
 #skills h2{
     text-align: center;
@@ -161,7 +180,7 @@ svg{
 
 
 header{
-    background-color: #f287b6;
+    background-color: #F6F1EE;
     padding: 10px 0 4px;
     position: fixed;
     width: 100%;
@@ -204,14 +223,14 @@ nav > ul {
     
     font-weight: 700;
     
-    color: #ffffff;
+    color: #87a117;
     
     }
      
     
     nav > ul > li > a:visited {
     
-    color: #ffffff;
+    color: #87a117;
     
     }
     
@@ -253,19 +272,12 @@ nav > ul {
     padding: 0 0 10px;
   }
 
-#index-hero{
-    background-color: #7b6d7d57;
-    padding: 20px o;
-    display: inline-block;
-    width: 100%;
-}
+
 
 .css-box-shadow{
 	/*start ------------*/
 	width: [object Object]px; 
 	height: [object Object]px; 
-	background: rgb(249,165,27);
-    background: radial-gradient(circle, rgba(249,165,27,1) 0%, rgba(242,135,182,1) 100%); 
 	border: solid #ffffff 0; 
 	box-shadow: 0 5px 14px rgba(179, 132, 30, 0.4)  ; 
 	-webkit-box-shadow: 0 5px 14px rgba(54, 36, 9, 0.4)  ; 
@@ -348,6 +360,9 @@ Medium devices (640px and larger)
     #skills h3{
         text-align: center;
     }
+    #index-hero h1{
+        font-size: 80px;
+    }
 }
 /* ==============================
 Large devices (1024px or larger)
@@ -367,6 +382,7 @@ Large devices (1024px or larger)
         margin-left: auto;
         margin-right: auto;
     }
+
 }
 /* ==============================
 X-large devices (1440px or larger)
