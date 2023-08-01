@@ -54,12 +54,11 @@ function displayImages() {
   setTimeout(displayImages, 6000); 
 }
 
-// JavaScript code to console.log the URLs of the images inside the "Ideation" section
-const firstImageElement = document.querySelector('div.col-md-6 picture:nth-child(1) img[src*="spektra/Ideation/"]');
+// JavaScript code to console.log the URLs of the images
+const firstImageElement = document.querySelector('div.col-md-6 picture:nth-child(1) img');
 const firstImageURL = firstImageElement.src;
 console.log('First Image URL:', firstImageURL);
 
-const secondImageElement = document.querySelector('div.col-md-6 picture:nth-child(2) img[src*="spektra/Ideation/"]');
+const secondImageElement = document.querySelector('div.col-md-6 picture:nth-child(2) img');
 const secondImageURL = secondImageElement.src;
 console.log('Second Image URL:', secondImageURL);
-
