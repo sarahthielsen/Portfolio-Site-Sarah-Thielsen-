@@ -361,14 +361,14 @@ nav > ul {
 {
   color:#737373
 }
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+.footer-links a:active,.footer-links a:focus,.footer-links a:visited
 {
   color:#cc33c4;
   text-decoration:none;
 }
 .footer-links.inline li
 {
-  display:inline-block
+  display:inline-block;
 }
 .site-footer .social-icons
 {
