@@ -245,6 +245,16 @@ footer{
     background-color: #7b6d7d57;
 }
 
+.footerdiv{
+    border-top: 1px solid #000000;
+}
+
+.svgspace{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
 
 /*====================
      NAV STYLING
@@ -397,18 +407,6 @@ Medium devices (640px and larger)
     #index-hero h1{
         font-size: 80px;
     }
-    .site-footer
-     {
-    padding-bottom:0;
-    }
-    .site-footer .copyright-text
-    {
-    text-align:left;
-     }
-     .site-footer .social-icons
-     {
-        text-align:center;
-     }
 }
 /* ==============================
 Large devices (1024px or larger)
@@ -429,6 +427,9 @@ Large devices (1024px or larger)
     }
     .sectionwork{
         margin-top: 7rem;
+    }
+    .sectionfooter{
+        margin-top: 2rem;
     }
     .parent {
         display: grid;
