@@ -203,7 +203,11 @@ a:active {
     text-align: left;
 }
 
-
+#about .row{
+    padding-bottom: 25px;
+    border-bottom: 1px solid #000000;
+    text-align: left;
+}
 
 #skills h2{
     text-align: center;
